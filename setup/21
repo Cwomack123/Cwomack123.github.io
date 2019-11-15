@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<!---Wow, 41 votes! Can we get to 50...?-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Khan NewsPaper!</title>
+    </head>
+   <style >
+   
+       #headings{
+           text-align:center;
+           font-family:sans-serif;
+          text-decoration:underline overline;
+          margin:17px;
+       }
+       .twotwo{
+           font-family:serif;
+           font-size:26px;
+           font-variant:petite-caps;
+         
+     margin:44px;
+       }
+       .fivefive{
+           font-family:cursive;
+           margin:46px;
+           font-size:12px;
+           
+       }
+       #divdiv{
+         background:linear-gradient(to top, rgb(181, 181, 181),white);
+           border:2px dotted black;
+           border-radius:30px;
+           width:40%;
+                margin:23px;
+              
+       }
+       .firstpara{
+           font-family:fantasy;
+           margin:23px;
+       }
+       .fabric:hover{
+           color:rgb(214, 138, 255);
+           font-style:italic;
+           text-shadow:1px 1px red;
+       }
+       .badge:hover{
+           color:rgb(235, 161, 0);
+           font-style:italic;
+           text-shadow:1px 1px green;
+       }
+       .troy{
+           color:red;
+           text-decoration:none;
+        
+       }
+       .chosen{
+           color:blue;
+           text-decoration:none;
+       }
+        .lyon{
+           color:purple;
+           text-decoration:none;
+       }
+         .light{
+           color:yellow;
+           text-decoration:none;
+       font-weight:bold;
+       
+             
+         }
+         .patty{
+              
+           color:green;
+           text-decoration:none;
+       
+         }
+         .night{
+             font-family:fantasy;
+           margin:23px;  
+         }
+         .featured{
+             font-size:18px;
+             text-align:center;
+             font-family:impact;
+             
+         }
+         a.featured{
+             padding-left:234px;
+         }
+         
+       #hopper{
+           float:right;
+           margin-right:20px;
+       }
+       .starter{
+           margin:9px;
+           font-family:impact;
+           
+       }
+       #div{
+         background:linear-gradient(to top, white,red);
+           border:3px dotted black;
+           border-radius:8px;  
+           width:20%;
+           float:right;
+       }
+       .secpara{
+            font-family:sans-serif;
+           margin:23px;
+       }
+       .new{
+           font-family:cursive;
+           padding-left:41px;
+       }
+       .new:hover{
+           color:red;
+           text-decoration:underline;
+       }
+       #goldenwinston{
+           padding-left:26px;
+       }
+       .linkstwo{
+          text-decoration:underline;
+           color:green; 
+            border:1px dashed green;
+       }
+       .links{
+           text-decoration:underline;
+           color:purple;
+           border:1px dashed purple;
+       }
+       #divdivtwo{
+          background:linear-gradient(to top, rgb(181, 181, 181),white);
+           border:2px dashed black;
+           border-radius:30px;
+           width:40%;
+                margin:23px;  
+       }
+       .recommend{
+           margin:20px;
+           font-family:georgia;
+       }
+       #footer{
+           background-color:rgb(207, 215, 255);
+           border:2px solid blue;
+           border-radius:20px;
+           width:40%;
+      float:right;
+     
+         
+         
+       }
+       .big{
+           font-family:impact;
+       }
+       #recommended{
+           text-align:right;
+           padding-right:48px;
+           
+       }
+       #recommended:hover{
+           font-size:22px;
+           padding-right:32px;
+           text-decoration:underline;
+           color:rgb(166, 216, 255);
+       }
+       #subsub{
+    width:35%;
+    float:right;
+    font-family:segoe UI light;
+
+       }
+       .lists{
+         width:80%; 
+          float:right;
+          font-family:Consolas;
+       }
+       #news{
+             background:linear-gradient(to top, white,rgb(251, 212, 255));
+           border:2px ridge red;
+           border-radius:52px;
+           width:40%;
+                margin:23px; 
+       }
+       .todaysnews{
+            font-family:Verdana;
+           margin:23px;
+           
+       }
+       #snow{
+                 background:linear-gradient(to top, white,rgb(234, 156, 255),pink);
+           border:2px ridge red;
+           border-radius:52px;
+           width:40%;
+                margin:23px;  
+       }
+       .today{
+                  font-family:verdana;
+           margin:23px;  
+       }
+       #back{
+    background:linear-gradient(pink,pink,lightblue, lightgreen,pink);
+           border:2px ridge red;
+           border-radius:52px;
+           width:40%;
+                margin:23px;    
+       }
+       .review{
+           padding:20px;
+           font-family:cursive;
+       }
+   #rec{
+       font-family:sans-serif;
+   }
+ 
+   </style>
+    <h1 id="headings">
+        The Khan Academy NewsPaper!
+    </h1>
+    <img id="hopper"src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif">
+
+ <div id="div">
+      <p class="starter">
+     Let's get started!! :D
+ </p>
+ </div>
+
+   
+<h3 style="padding-left:76px; padding-top:25px;font-size:23px;text-decoration:underline">
+    Contents:
+</h3>
+<ul style="padding-left:95px;padding-bottom:25px">
+ <a href="#recommended"><li>
+    Recommended!
+</li></a><br>
+         <a href="#subsub">  <li>
+       Subscribers
+    </li></a><br>
+
+  <a href="#divdiv">  <li>
+        2/9/2015
+    </li></a><br>
+     <a href="#divdivtwo">  <li>
+        2/10/2015
+    </li></a><br>
+     <a href="#news">  <li>
+        2/12/2015
+    </li></a><br>
+     <a href="#snow">  <li>
+        2/14/2015
+    </li></a><br>
+    <a href="#back">  <li>
+        4/3/2015
+    </li></a>
+</ul>
+
+ 
+
+  <h2 class="twotwo">
+      First Post
+  </h2>
+  <h5 class="fivefive">
+       February/9th/2015
+  </h5>
+   <h3 id="recommended">
+       Recommended...
+   </h3>
+   <div id="footer">
+       <footer class="recommend">
+       <strong><big>  Programs, People, Places, to see!</big></strong>
+       <br><br>
+       <big style="font-size:25px"class="big">Programs:</big> <br>Check out these 5 <em>awesome</em> programs/webpages here! <br>
+       <a style="color:rgb(38, 63, 255); font-family:"href="https://www.khanacademy.org/computer-programming/drawing-aqualine/6119152640851968"><strong>Aqualine!<br> What more is there to say?</strong></a><br>
+      <a style="color:rgb(17, 110, 0);"href="https://www.khanacademy.org/computer-programming/invasion-of-darkness/5184403525074944">The First Game He's Ever made, and it's looking GOOD!...</a>
+      <a style="color:rgb(5, 12, 230);"href="https://www.khanacademy.org/computer-programming/the-day-before-april-fools-2/4786565720834048"><br>A Funny April Fool's Joke</a><br>
+      <a style="color:rgb(255, 102, 0);"href="https://www.khanacademy.org/computer-programming/egg-randomizer/4516652963856384">
+          A <em>Neat</em> Egg Generator.<br>
+      </a>
+      <a style="color:rgb(119, 0, 255);"href="https://www.khanacademy.org/computer-programming/mr-jump/5133219141517312"><strong>An Exciting Action Game!</strong></a><br><br><br>
+         <big style="font-size:25px"class="big">People:</big> 
+      <br><br>
+      Check out these 5 <em>awesome</em> people!<br> <br>
+      <a style="color:rgb(222, 141, 0);font-weight:bold;font-style:italic"href="https://www.khanacademy.org/profile/Splo/">
+          סּ·sρlo·סּ™ | The #1 Orange Proponent 
+      </a><br>
+          <a style="color:rgb(125, 0, 235);font-weight:bold;font-style:italic"href="https://www.khanacademy.org/profile/darrylyeo/">
+      DY
+      </a><br>
+      <a  style="color:rgb(5, 141, 252);font-weight:bold;font-style:italic"href="https://www.khanacademy.org/profile/kaid_114222762077139284352995/programs">
+          The Chosen One
+          <br>
+          
+      </a>
+      <a style="color:rgb(44, 148, 0);font-weight:bold;font-style:italic"href="https://www.khanacademy.org/profile/SpringAir/">
+         The MockingJay<br>
+      </a>
+      <a style="color:rgb(122, 1, 1);font-weight:bold;font-style:italic" href="https://www.khanacademy.org/profile/DeltaStudios/"> 
+      
+   
+         ➳ ☯ Δανιαλ Αημαδ Ω ☮™ 
+              <br><br>
+      </a>
+       <big style="font-size:25px"class="big">Places:</big> <br>
+        Check out these 2 <em>awesome</em> places to get <big>STARTED!!</big><br> <br>
+        <a id="rec"style="color:rgb(255, 255, 255);font-weight:bold;font-style:italic"href=" https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro">JavaScript Intro</a><br>
+        <a id="rec"style="color:rgb(0, 0, 0);font-weight:bold;font-style:italic"href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro">HyperText Markup Lauguage Intro</a>
+   </footer>
+   </div>
+ 
+   <div id="divdiv">
+   
+         <p class="firstpara">
+       All is quiet in the <a target="_blank" id="linkone" href="https://www.khanacademy.org/computing/computer-programming/computer-programming">Community of Khan Academy Programming.</a> <br>
+       
+       Or is it?<br>
+       <a href="https://www.khanacademy.org/profile/pamela/programs">Pamela</a> (this very day!) posted the winners of both the <span class="span"><a target="_blank"class="badge" href="https://www.khanacademy.org/computer-programming/results-for-contest-badge-contest/5684491845369856">Contest: Badge Contest!</a></span> and the <span class="spantwo"><a target="_blank" class="fabric"href="https://www.khanacademy.org/computer-programming/results-for-contest-fabric-pattern/6250308077092864">Contest: Fabric Pattern!</a></span>
+       
+       <br>
+       The Winners:
+<br><br>
+For Fabric:
+       <ul>
+       <a class="light"href="https://www.khanacademy.org/computer-programming/simple-pattern/6602015250317312"><li>
+           Light Runner
+           
+       </li></a>
+       <a class="patty"href="https://www.khanacademy.org/computer-programming/random-color-test/4652231597752320" > <li>
+               Patrick Z
+           </li></a>
+          <a class="lyon"href="https://www.khanacademy.org/computer-programming/paisley/5481640248475648">
+            <li>
+               Bob Lyon
+           </li>  
+          </a>
+             
+            <a class="chosen"href="https://www.khanacademy.org/computer-programming/my-first-fractal/5671955674693632">
+                 <li>
+               The Chosen One
+           </li>
+            </a>
+            <a class="troy"href="https://www.khanacademy.org/computer-programming/spin-off-of-contest-fabric-pattern/6503605436416000">
+                 <li>
+              Troy Cook
+           </li>
+            </a>
+       </ul>
+       <br><br>
+    
+       
+    </p>
+    <p class="night">
+           The rest to be posted in tomorrows News! 
+       <br>
+       All is quiet once again...<br>
+       ~Reporter: Yvonne Rupert
+    </p>
+   </div>
+
+<h4 class="featured">
+    Featured:
+</h4>
+
+   <p style="font-family:gabriola; font-size:20px; text-align:center;color:red;text-decoration:underline"> TheMockingjay<br>
+    Check out his <strong>AWESOME Valentines Day Tribute</strong><br></p>
+   <a class="featured" href="https://www.khanacademy.org/computer-programming/happy-valentines-day/6066735227338752"> <big>
+        HERE.
+    </big>
+</a>
+  
+   
+  <h2 class="twotwo">
+      Second Post
+  </h2>
+  <h5 class="fivefive">
+       February/10th/2015
+  </h5>
+   <div id="divdivtwo">
+   
+         <p class="secpara">
+    All is quiet in the <a target="_blank" id="linkone" href="https://www.khanacademy.org/computing/computer-programming/computer-programming">Community of Khan Academy Programming.</a> <br>
+       
+       Or is it?<br>
+       Two days before,  <a href="https://www.khanacademy.org/profile/pamela/programs">Pamela</a> posted the winnters of the <span class="span"><a class="badge"target="_blank"href="https://www.khanacademy.org/computer-programming/results-for-contest-badge-contest/5684491845369856">Contest:Badge Contest!</a></span> 
+    <br><br>
+   <big> Winners: <br>
+</big><br>
+<a class="linkstwo"target="_blank" href="https://www.khanacademy.org/computer-programming/badges-with-viewer/6021959599783936">
+    SuperNova<br>
+</a><br>
+And<br><br>
+<a class="links"target="_blank"href="https://www.khanacademy.org/computer-programming/triveri-contest-badge-golden-winston/6410259288293376">
+    Triveri
+</a>
+<br>
+<br>
+Together, they came up with <strong>this</strong>, which is the new Contest Badge-also a Sun Badge:
+<br>
+    </p>
+ 
+   </div>
+  <div id="subsub"> <ul class="sub">
+ <h3>
+    Subscribers
+</h3>
+      <li>
+          Ridgetheninja, the #1 christianity proponent.∞☾TJF☽{a ranger} ✞✩†☢☣ϟ✪
+      </li><br>
+     <li>
+        Mary Vencenti
+     </li>
+     <li>
+         TheSockMaster
+     </li>
+      <li>
+        Billy Zee
+     </li>
+      <li>
+         Zachary
+     </li>
+     <li>
+         Anna Grace
+     </li>
+      <li>
+        General.Veers.k17
+     </li>
+     <li>
+         ☥Pharaoh Carl☥ ✠(I Am Catholic)✠ ♛(Irish Dancer)♛
+     </li>
+     <li>
+         The MockingJay
+     </li>
+  </ul>
+  <p class="lists">
+      To be on this list, let me know in the Tips & Thanks!<br>
+    
+  </p></div>
+<img id="goldenwinston"src="https://www.khanacademy.org/images/badges/sun/golden-winston-512x512.png" height="200">
+<a target="_blank"href="https://www.khanacademy.org/images/badges/sun/golden-winston-512x512.png"><p class="new">
+    Yes, a NEW Badge! :D
+</p></a>
+<br><br><br>
+
+<h4 class="featured">
+    Featured:
+</h4>
+
+   <p style="font-family:gabriola; font-size:20px; text-align:center;color:blue;text-decoration:underline"> Jacob (Galaxy Programming)<br>
+    Check out his <strong>Epic Space Game, </strong><br></p>
+   <a style="color:green"class="featured" href="https://www.khanacademy.org/computer-programming/escape-plan-almost-done/4777792607354880"> <big>
+        HERE.
+    </big>
+</a>
+<br><br><br>
+
+   <br>
+
+<h2 class="twotwo">
+     Third Post
+  </h2>
+  <h5 class="fivefive">
+       February/12th/2015
+  </h5>
+<div id="news">
+   
+         <p class="todaysnews">
+       All is quiet in the <a target="_blank" id="linkone" href="https://www.khanacademy.org/computing/computer-programming/computer-programming">Community of Khan Academy Programming.</a> <br>
+       
+       Or is it?<br>
+       <a href="https://www.khanacademy.org/profile/pamela/programs">Pamela</a> made another Khantest! For Valentines Day on Saturday!
+       <br>
+       Go here to enter it! <br>
+       <a href="https://www.khanacademy.org/computer-programming/valentines-day-contest/6543805623566336">Pamela's Valentines Khantest!</a><br>
+       So far, this is my favorite...;):<br>
+       <a href="https://www.khanacademy.org/computer-programming/my-entry/6520661202436096">
+           Trodo Proudfoot
+    <br>   </a>
+      <br> On a previous date, (3 days ago...) <a href="https://www.khanacademy.org/profile/TheElectricMagician/programs">Nikola Tesla</a>  created a <strong>Winter Avatar Contest.
+       
+</strong> 
+    Go <a href="https://www.khanacademy.org/computer-programming/winter-avatar-contest/5994123553931264 "><big>Here</big></a> to vote on YOUR favorite Avatar!! <br>
+        <br>
+        ~Reporter, Yvonne Rupert
+    </p>
+   </div>
+  
+<h4 class="featured">
+    Featured:
+</h4>
+
+   <p style="font-family:gabriola; font-size:20px; text-align:center;color:green;text-decoration:underline"> <br>
+   Piyush<br>
+   A Super Cool Game That Shot Up to the Hot List! 
+  </p>
+   <a style="color:orange"class="featured" href="https://www.khanacademy.org/computer-programming/the-turbo-tunnel/6685673762062336"> <big>
+        HERE.
+    </big>
+</a>
+
+   <br><br>
+   <h2 class="twotwo">
+     Fourth Post
+  </h2>
+  <h5 class="fivefive">
+       February/14th/2015
+  </h5>
+<div id="snow">
+   
+         <p class="today">
+       All is quiet in the <a target="_blank" id="linkone" href="https://www.khanacademy.org/computing/computer-programming/computer-programming">Community of Khan Academy Programming.</a> <br>
+       
+       Or is it?<br>
+   So far, the 3 top entries are <a style="font-style:italic; color:rgb(255, 0, 221)"href="https://www.khanacademy.org/computer-programming/valentines-day-platformer-new-levels/5039407294578688">Valentine's Day Platformer</a>, <a style="font-style:italic; color:rgb(140, 0, 145)"href="https://www.khanacademy.org/computer-programming/cupids-apprentice-level-6/4956937022865408">Cupid's Apprentice</a>, and <a style="font-style:italic; color:rgb(255, 0, 0)"href="https://www.khanacademy.org/computer-programming/heart-rush/6522561775796224">Heart Rush</a><br>
+   Check them all out! :D<br>
+   And also, I might write a few reviews on them. But first!<br>
+   <big>YOU</big> could help! Below, give your opinions on the game-Mind, make them <em>swear-free, and don't be <strong>TO</strong> harsh. <br>I will pick <big>2</big> for each game.</em>
+   <br>
+   And make sure to put them in Tips & Thanks!<br>
+   <br>Reporter, Yvonne Rupert
+    </p>
+   </div>
+  <h4 class="featured">
+    Featured:
+</h4>
+
+   <p style="font-family:gabriola; font-size:20px; text-align:center;color:blue;text-decoration:underline">   Adam Macaulay<br>
+  <br>
+An Amazing Mario Brother's related game,
+  </p>
+   <a style="color:purple"class="featured" href="https://www.khanacademy.org/computer-programming/rescue-princess-peach/6473801280520192"> <big>
+        HERE.
+    </big>
+</a>
+ <h2 class="twotwo">
+     Fifth Post
+  </h2>
+  <h5 class="fivefive">
+     April/3th/2015
+  </h5>
+<div id="back">
+   
+         <p class="review">
+       All is quiet in the <a target="_blank" id="linkone" href="https://www.khanacademy.org/computing/computer-programming/computer-programming">Community of Khan Academy Programming.</a> <br>
+       
+       Or is it?<br>
+     <a href="https://www.khanacademy.org/profile/pamela/programs">Pamela</a> has an Egg contest out for Easter.
+     It ends on April 7th, so enter soon!<br> <a href="https://www.khanacademy.org/computer-programming/contest-decorategg/6311996940877824">Easter Contest</a><br><br>
+     The top three entries are...
+     <br><br>
+     <a href="https://www.khanacademy.org/computer-programming/which-came-first/5019893157855232">
+        The Chosen One
+     </a>
+<br>
+<a href="https://www.khanacademy.org/computer-programming/eggs/4760525057294336">
+
+    <br>
+    The Dark Knight
+</a>
+<a href="https://www.khanacademy.org/computer-programming/happy-easter/4939423237799936"><br><br>DY</a><br>
+And also, I might write a few reviews on them. But first!<br>
+   <big>YOU</big> could help! Below, give your opinions on the Programm, please make them <em>swear-free, and don't be <strong>TOO</strong> harsh. <br>I will pick <big>2</big> for each Program, and they will be posted in THIS NewsPaper!.</em>
+
+   <br>
+  So, have fun! 
+   And make sure to put them in Tips & Thanks!<br>
+   <br>Reporter, Yvonne Rupert
+    </p>
+   </div>
+     <h4 class="featured">
+    Featured:
+</h4>
+
+   <p style="font-family:gabriola; font-size:20px; text-align:center;color:red;text-decoration:underline">  ➳ ☯ Δανιαλ Αημαδ Ω ☮™<br>
+  <br>
+An Amazing Sequel, to <a href="https://www.khanacademy.org/computer-programming/paper-the-game/6535254657204224">Paper!  </a>
+  </p>
+   <a style="color:green"class="featured" href="https://www.khanacademy.org/computer-programming/paper-2-the-game/5197243547910144"> <big>
+        HERE.
+    </big>
+</a>
+   <a href="#headings">
+       <h2 style="font-size:20px; color:rgb(0, 120, 84);text-align:center;margin-top:32px">
+           Back to Top
+       </h2>
+   </a>
+ 
+<div style="background-color:rgb(242, 242, 242);">
+    <h6 style="font-family:courier new; font-weight:bold;text-align:center;margin:9px">
+        ©Khan Academy News!<br>
+        Except where noted, all rights reserved.
+
+    </h6>
+</div>
+    <body>
+
+
+    </body>
+</html>
